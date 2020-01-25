@@ -25,9 +25,14 @@
               "src/404.html"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/font-awesome/scss/font-awesome.scss",
+              "node_modules/angular-bootstrap-md/assets/scss/bootstrap/bootstrap.scss",
+              "node_modules/angular-bootstrap-md/assets/scss/mdb.scss",
+              "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/hammerjs/hammer.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -90,9 +95,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/font-awesome/scss/font-awesome.scss",
+              "node_modules/angular-bootstrap-md/assets/scss/bootstrap/bootstrap.scss",
+              "node_modules/angular-bootstrap-md/assets/scss/mdb.scss",
+              "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/hammerjs/hammer.min.js"
+            ]
           }
         },
         "lint": {
@@ -121,6 +131,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "TextToSpeechWeb"
+    }
+  },
+  "defaultProject": "TextToSpeechWeb",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
