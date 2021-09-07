@@ -1,27 +1,47 @@
-# TextToSpeechWeb
+# Text-To-Speech Web
+### A web application for converting a text file to speech.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
+The goal of this project is to create a web application that serves as a tool for converting a text file into speech using Google Text-to-Speech.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+These instructions will get you a copy of the project up and running on 
+your local machine for development and testing purposes.
 
-## Code scaffolding
+### Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Node.js [15.5.0 or above] - https://nodejs.org/
+* npm [7.3.0 or above] - https://www.npmjs.com/
 
-## Build
+Detailed information about installation and configurations are provided at developers' site.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Technology Stack
 
-## Running unit tests
+* Angular [8.2.9+]
+* TypeScript
+* SCSS
+* JavaScript
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Build 
 
-## Running end-to-end tests
+A step by step instruction [on Windows 10]:
+* Navigate to project directory in Command Prompt (cmd).
+* Run `ng serve` to start application's local development server. 
+* Navigate to `http://localhost:4200/` in your browser. 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+The application will automatically reload if you change any of the source files.
 
-## Further help
+## Preview
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<table>
+    <tr>
+        <td>
+            <p>Homepage</p>
+            <img src="images/img_1.png" alt="homepage" title="Homepage">
+        </td>
+    </tr>
+</table>
+
+## Author
+
+* **Michał Koziara** 
